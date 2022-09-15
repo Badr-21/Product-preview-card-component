@@ -1,4 +1,4 @@
-:root {
+* {
     /*pirmary color*/
     --Dark-cyan: hsl(158, 36%, 37%);
     --Cream: hsl(30, 38%, 92%);
@@ -6,23 +6,21 @@
     --Very-dark-blue: hsl(212, 21%, 14%);
     --Dark-grayish-blue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
-}
-
-* {
     box-sizing: border-box;
 }
 
 body {
     width: 100vw;
-    background-color: var(--Cream);
-    padding: 0% 0%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    background-color: var(--Cream);
+
 }
 
 .container {
     width: 36rem;
-    height: 100%;
     margin: 0 auto;
     display: flex;
 }
@@ -135,6 +133,7 @@ i {
 
     .image img {
         display: block;
+        height: 100%;
         border-radius: 10px 10px 0 0;
     }
     
